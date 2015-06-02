@@ -1,0 +1,43 @@
+@font-face {
+	font-family: FontExtraBold;
+	src: url("../fonts/dosis-ex-bold.ttf");
+}
+html, body {
+	background: #152736;
+	margin: 0;
+	padding: 0;
+	transform: transale3d(0,0,0);
+	width:100%;
+	height:100%;
+}
+canvas {
+	margin: auto;
+}
+#game {
+	text-align: center;
+}
+#ad {
+	font-family: FontExtraBold;
+	position: fixed;
+	background: rgba(0,0,0, 0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+}
+#ad_timer {
+	color: #fff;
+	padding: 10px;
+}
+.adsbygoogle {
+	margin: auto;
+}
+#close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 14px;
+	background: #BD1E1E;
+	font-size: .8rem;
+}
